@@ -22,3 +22,14 @@ h1,h2,h3,h4,h5,h6{
 .my-slide{
     height: 500px;
 }
+
+/* About Section */
+.company-title ul{
+    list-style: none;
+}
+.company-title ul li span i {
+    width: 55px;
+    height: 90px;
+    font-size: 38px;
+    color: #E83B3E;
+}
