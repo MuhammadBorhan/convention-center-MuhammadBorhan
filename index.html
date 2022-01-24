@@ -37,22 +37,22 @@
                     </button>
 
                     <a class="navbar-brand mx-auto" href="#">
-                        <h3>Abacus Convention Center</h3>
+                        <h3 class="fw-bold fs-2">Charlotte Convention Center</h3>
                     </a>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active text-primary fw-bold" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active fs-4 fw-bold" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark fw-bold" href="#">About us</a>
+                                <a class="nav-link text-dark fs-4 fw-bold" href="#">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark fw-bold" href="#">Contact</a>
+                                <a class="nav-link text-dark fs-4 fw-bold" href="#">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark fw-bold" href="#">Subscribe</a>
+                                <a class="nav-link text-dark fs-4 fw-bold" href="#">Subscribe</a>
                             </li>
 
                         </ul>
@@ -64,12 +64,13 @@
 
 
         <!------------------------------
-             Carousel images slider 
+                    Carousel  
         ------------------------------->
         <section>
             <div class="row">
                 <div class="col-12">
-                    <div id="carouselExampleCaptions" class="carousel slide pt-5 pt-lg-5" data-bs-ride="carousel">
+                    <div id="carouselExampleCaptions" class="carousel slide" style="margin-top: 80px;"
+                        data-bs-ride="carousel">
 
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -85,7 +86,7 @@
                                 <img src="images/male-business.jpg" class="w-100 h-100" alt="...">
                                 <div class="carousel-caption">
                                     <h5 class="fs-1 w-75 mx-auto">The perfect venue for your next event</h5>
-                                    <p class="f-4 lead my-3 w-75 mx-auto">Amet minim mollit non deserunt ullamco est sit
+                                    <p class="fs-4 my-3 w-75 mx-auto">Amet minim mollit non deserunt ullamco est sit
                                         aliqua dolor do amet sint. Velit officia consequat duis enim velit</p>
                                     <a class="btn btn-primary mb-3 px-5 py-2 fw-bold" target="_blank"
                                         href="https://events.capacitymedia.com/event/7466b853-fdf7-4441-8192-04c32297f618/websitePage:01139e4c-2de7-409d-a6c1-db9d1badaad8?msclkid=7875ba54d8801e63fe7edbbac4e61e55&utm_source=bing&utm_medium=cpc&utm_campaign=Metro%20Connect%202022%20%7C%20Search&utm_term=Telecommunication%20expo&utm_content=Telecommunication%20Event%20-%20PM">Click
@@ -95,8 +96,9 @@
                             <div class="carousel-item my-slide">
                                 <img src="images/audience.jpg" class="w-100 h-100" alt="...">
                                 <div class="carousel-caption">
-                                    <h5 class="fs-1 w-75 mx-auto">The perfect venue for your next event</h5>
-                                    <p class="f-4 lead my-3 w-75 mx-auto">Amet minim mollit non deserunt ullamco est sit
+                                    <h5 class="fs-1 w-75 mx-auto bg-primary">The perfect venue for your next event
+                                    </h5>
+                                    <p class="fs-4 my-3 w-75 mx-auto">Amet minim mollit non deserunt ullamco est sit
                                         aliqua dolor do amet sint. Velit officia consequat duis enim velit</p>
                                     <a class="btn btn-primary mb-3 px-5 py-2 fw-bold" target="_blank"
                                         href="https://events.capacitymedia.com/event/7466b853-fdf7-4441-8192-04c32297f618/websitePage:01139e4c-2de7-409d-a6c1-db9d1badaad8?msclkid=7875ba54d8801e63fe7edbbac4e61e55&utm_source=bing&utm_medium=cpc&utm_campaign=Metro%20Connect%202022%20%7C%20Search&utm_term=Telecommunication%20expo&utm_content=Telecommunication%20Event%20-%20PM">Click
@@ -107,7 +109,7 @@
                                 <img src="images/business-executives.jpg" class="w-100 h-100" alt="...">
                                 <div class="carousel-caption">
                                     <h5 class="fs-1 w-75 mx-auto">The perfect venue for your next event</h5>
-                                    <p class="f-4 lead my-3 w-75 mx-auto">Amet minim mollit non deserunt ullamco est sit
+                                    <p class="fs-4 my-3 w-75 mx-auto">Amet minim mollit non deserunt ullamco est sit
                                         aliqua dolor do amet sint. Velit officia consequat duis enim velit</p>
                                     <a class="btn btn-primary mb-3 px-5 py-2 fw-bold" target="_blank"
                                         href="https://events.capacitymedia.com/event/7466b853-fdf7-4441-8192-04c32297f618/websitePage:01139e4c-2de7-409d-a6c1-db9d1badaad8?msclkid=7875ba54d8801e63fe7edbbac4e61e55&utm_source=bing&utm_medium=cpc&utm_campaign=Metro%20Connect%202022%20%7C%20Search&utm_term=Telecommunication%20expo&utm_content=Telecommunication%20Event%20-%20PM">Click
@@ -133,37 +135,66 @@
         </section>
     </header>
 
+
+
     <main>
-        <section class="About-section py-5">
+
+        <!----------------------
+             About Section 
+        ------------------------>
+        <section class="About-section position-relative py-5">
             <div class="container">
-                <h3 class="fw-bold py-5 mb-4 fs-1 text-center">Our company values</h3>
-                <div class="row align-items-center">
+                <h3 class="fw-bold py-5 mb-4 fs-1 text-center">Companies Equipment</h3>
+
+                <!-- toast -->
+                <div class="toast show ms-auto"
+                    style="border-left: 10px solid tomato;position:absolute;right:50px;top:300px" role="alert"
+                    aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header d-flex justify-content-between">
+                        <img class="me-2 mb-2" src="icons/Vector.svg" alt="...">
+                        <strong class="me-auto">
+                            <h4>Equipment</h4>
+                        </strong>
+
+                        <div class="d-flex">
+                            <small>
+                                <h6>3 mins ago</h6>
+                            </small>
+                            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="toast-body text-center">
+                        <h4>This is our Equipments</h4>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center">
                     <div class="col-lg-6 order-2 order-lg-0">
                         <div class="company-title">
                             <ul>
                                 <li>
                                     <span><i class="fas fa-lightbulb float-start"></i></span>
-                                    <h5 class="fw-bold mb-2 fs-3">Innovative</h5>
-                                    <p class="fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h5 class="fw-bold mb-2 fs-3">Ceiling Lights</h5>
+                                    <p class="fw-bold fs-5">The bathroom is one of the most active rooms in
+                                        the house.
+                                        From brushing your teeth, shaving.</p>
                                 </li>
                                 <li>
                                     <span><i class="fas fa-key float-start"></i></span>
-                                    <h5 class="fw-bold mb-2 fs-3">Innovative</h5>
-                                    <p class="fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h5 class="fw-bold mb-2 fs-3">Keys and Remotes</h5>
+                                    <p class="fw-bold fs-5">Car Keys Express is your online resource for replacement
+                                        keys, keyless entry remotes.</p>
                                 </li>
                                 <li>
                                     <span><i class="fas fa-brain float-start"></i></span>
                                     <h5 class="fw-bold mb-2 fs-3">Innovative</h5>
-                                    <p class="fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p class="fw-bold fs-5">These example sentences are selected automatically from
+                                        various online news sources.</p>
                                 </li>
                                 <li>
                                     <span><i class="fas fa-window-maximize float-start"></i></span>
-                                    <h5 class="fw-bold mb-2 fs-3">Innovative</h5>
-                                    <p class="fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h5 class="fw-bold mb-2 fs-3">Volkswagen</h5>
+                                    <p class="fw-bold fs-5">The best offers from our latest sales, all in one place.</p>
                                 </li>
                             </ul>
                         </div>
@@ -176,6 +207,11 @@
         </section>
 
 
+
+
+        <!----------------------
+             Package Section 
+        ------------------------>
         <section class="package-section">
             <div class="container">
                 <h1 class="text-center fs-1 fw-bold py-3 mt-5">Our Package</h1>
@@ -220,7 +256,7 @@
                     <div class="col">
                         <div class="card border-0 mt-4 mt-lg-0">
                             <div class="card-body">
-                                <h1 class="card-title fw-bold">$300</h1>
+                                <h1 class="card-title fw-bold">$411</h1>
                                 <h2 class="card-subtitle fw-bold py-3">Business fair</h2>
                                 <p class="card-text fw-bolder">Some quick example text to build on the card title and
                                     make up
@@ -267,7 +303,7 @@
                             </button>
 
                             <div class="card-body text-white">
-                                <h1 class="card-title fw-bold">$300</h1>
+                                <h1 class="card-title fw-bold">$220</h1>
                                 <h2 class="card-subtitle fw-bold py-3">Business fair</h2>
                                 <p class="card-text fw-bolder">Some quick example text to build on the card title and
                                     make up the bulk of the card's content.</p>
@@ -307,7 +343,7 @@
                     <div class="col">
                         <div class="card border-0 mt-4 mt-lg-0">
                             <div class="card-body">
-                                <h1 class="card-title fw-bold">$300</h1>
+                                <h1 class="card-title fw-bold">$328</h1>
                                 <h2 class="card-subtitle fw-bold py-3">Business fair</h2>
                                 <p class="card-text fw-bolder">Some quick example text to build on the card title and
                                     make up
@@ -346,6 +382,10 @@
         </section>
 
 
+
+        <!----------------------
+             Accordian Section 
+        ------------------------>
         <section>
             <div class="container py-5">
                 <h1 class="text-center py-5 fs-1 fw-bold">Frequently Asked Questions</h1>
@@ -356,19 +396,16 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Accordion Item #1
+                                        <h4>Which is better convection or regular oven?</h4>
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        <p>Convection is about 25% faster than conventional oven. Even Cooking –
+                                            Food cooks and browns more evenly in a convection oven. A regular oven can
+                                            have hot spots. Better Browning – Because the air circulates, the outside
+                                            cooks faster and browns more evenly, leaving the interior still juicy</p>
                                     </div>
                                 </div>
                             </div>
@@ -377,19 +414,18 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Accordion Item
+                                        <h4>How to use a conventional oven?</h4>
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        <p>Prepare the food or pastry to bake.
+                                            Make sure your hands are free from moisture to prevent electrocution.
+                                            Plug the oven.
+                                            Preheat the oven based on the temperature needed for the food.
+                                            Make sure you place the food in an oven-safe container to prevent damage to
+                                            both equipment and food taste.</p>
                                     </div>
                                 </div>
                             </div>
@@ -398,19 +434,17 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Accordion Item #2
+                                        <h4>How do convection ovens compare to regular ovens?</h4>
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        <p>It cooks faster: Because hot air is blowing directly onto food instead of
+                                            just surrounding it, food cooks about 25 percent faster in a convection
+                                            oven. It cooks more evenly: Regular ovens can have hot spots, depending on
+                                            where the heating element is, but the fan in a convection oven will
+                                            circulate the air to help even out the temperature variances.</p>
                                     </div>
                                 </div>
                             </div>
@@ -420,19 +454,18 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Accordion Item #3
+                                        <h4>What is the difference between a convection oven and a conventional oven?
+                                        </h4>
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default, until the collapse plugin adds the appropriate classes that we use to
-                                        style each element. These classes control the overall appearance, as well as the
-                                        showing and hiding via CSS transitions. You can modify any of this with custom
-                                        CSS or overriding our default variables. It's also worth noting that just about
-                                        any HTML can go within the <code>.accordion-body</code>, though the transition
-                                        does limit overflow.
+                                        <p>Conventional oven is the ordinary day to day oven that most people use. ...
+                                            Conventional oven has a heat source at the bottom most of the time. ...
+                                            Convection oven is more costly than a conventional oven.
+                                            Convection oven does not require the oven to be of a hot temperature as of a
+                                            conventional oven.</p>
                                     </div>
                                 </div>
                             </div>
@@ -446,15 +479,18 @@
         </section>
     </main>
 
+
+
+    <!----------------------
+             Footer Section 
+    ------------------------>
     <footer>
         <section class="bg-dark">
             <div class="container py-5 text-white">
                 <div class="row align-items-center">
                     <div class="col-lg-8 col-12">
-                        <p class="text-normal fw-bold text-sm-center text-lg-start"
-                            style="word-spacing: 5px;letter-spacing: 2px;">
-                            &copy; All rights
-                            reserved by programming hero</p>
+                        <p class="fs-4 text-center text-lg-start" style="word-spacing:5px;letter-spacing:2px;">
+                            &copy; All rights reserved by programming hero</p>
                     </div>
                     <div class="col-lg-4 col-12">
                         <div class="float-lg-end text-center">
