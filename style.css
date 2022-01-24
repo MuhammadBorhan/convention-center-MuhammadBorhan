@@ -33,3 +33,23 @@ h1,h2,h3,h4,h5,h6{
     font-size: 38px;
     color: #E83B3E;
 }
+
+
+
+/* Package Section */
+i.fas.fa-check.list-icon-style {
+    background-color: #3c0ed736;
+    border-radius: 50px;
+    padding: 7px;
+    color: blue;
+    margin-right: 15px;
+}
+.package-list{
+    list-style: none;
+    margin-left: -35px;
+}
+.card.border-0.bg-primary.custom-card {
+    position: relative;
+    bottom: 50px;
+    border-radius: 20px;
+}
