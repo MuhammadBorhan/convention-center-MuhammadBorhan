@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@100&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
+/* Common css */
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Responsive navbar icon */
+.icon-style{
+    color: black;
+    padding: 4px 0;
+    font-size: 25px;
+}
+
+
+/* Carousel */
+.my-slide{
+    height: 500px;
 }
